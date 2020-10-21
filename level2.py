@@ -20,7 +20,8 @@ def longest_word(string):
     #while there are characters in the string, until the character is a space. 
     return the_longest_word  #"Your Return Value"
 
-#if __name__ == '__main__':
+if __name__ == '__main__':
     # Add any code to test your solution here
     # As per the example, this should return lorem
-print(longest_word("lorem ipsum, dolor sit amet"))
+    print(longest_word("lorem ipsum, dolor sit amet"))
+    
