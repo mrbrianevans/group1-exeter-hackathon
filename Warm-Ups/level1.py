@@ -10,6 +10,6 @@ def min_max_product(list):
     return max(list)*min(list)
 
 
-if name == 'main':
+if __name__ == 'main':
     # As per the example, this should return 200
     print(min_max_product([2, 100, 24, 15, 4, 9, 61]))
