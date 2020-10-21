@@ -1,5 +1,17 @@
 from tkinter import *
+import requests
 
+city = input('Enter city name: ')
+
+
+url = 'http://api.openweathermap.org/data/2.5/weather?q=London&appid=184f57ba41848e91f08939cf49fada3d'.format(city)
+
+res = requests.get(url)
+
+data = res.json()
+
+
+print(data)
 
 
 
